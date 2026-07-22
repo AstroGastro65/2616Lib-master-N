@@ -133,8 +133,6 @@ void motion_profiling_example() {
 //This auton isn't actually needed, but can be helpful if your partner wants you to not run any auton, or if you need to run an auton as a test during inspection at the start of a competition.
 void nothing() {}
 
-//test2
-
 void auton_test() {
    chassis.set_odom_position(0,0,0);
    chassis.drive(2.5,100);
